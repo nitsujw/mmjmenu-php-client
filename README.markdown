@@ -14,8 +14,8 @@
 
 ### Get a Menu Item
     $menuItem      = $client->menuItem('123')
-    $menuItem      = json_decode($aitem, true);
-    $menuItem      = $aitem['menu_item'];
+    $menuItem      = json_decode($menuItem, true);
+    $menuItem      = $menuItem['menu_item'];
 
     print($menuItem['name']);
 
